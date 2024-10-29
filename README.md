@@ -1,6 +1,18 @@
+Welcome to Boardwalk Games—your ultimate destination for all things board gaming! Explore our extensive collection of classic and modern board games, perfect for family nights, game parties, or solo adventures. Whether you’re a seasoned strategist or a casual player, we offer detailed game reviews, guides, and tips to help you find your next favorite. Join our vibrant community of gamers to share experiences, participate in events, and discover the joy of tabletop gaming. Dive into the world of fun and connection at Boardwalk Games!
+
+Primary Goal: Increase in-store foot traffic and customer engagement
+
+Other Business Goals: Showcase shop services, Increase Brand Awareness, Provide essential information to clients, Encourage group visits and event participation.
+
+User Personas: Casual Gamers, Board Game Enthusiasts, Student Gamers.
+
+User needs: Readability, Usability, Relevent Content.
+
+Code Institute Template:
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome Sam Stallard,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
