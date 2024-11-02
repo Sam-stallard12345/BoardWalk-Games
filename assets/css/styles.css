@@ -20,7 +20,7 @@
 :root {
     --primary-font: 'Inter', sans-serif;
     --secondary-font: 'Macondo', cursive;
-    --primary-color: #416a8e; /* blue */
+    --primary-color: #3a2620;; /* dark brown */
     --secondary-color: #aa9581;
     --highlight-color: #416a8e;
     --light-hightlight: #7a9fc2;
@@ -48,8 +48,9 @@ h3 {
 
 
 .icon1 {
-    height: 10px;
-    width: 10px;
+    height: 30px;
+    width: 30px;
+    color: white;
 }
 
 #about {
@@ -61,9 +62,18 @@ h3 {
 
 /* grid visualisation CSS for testing */
 
-
+/* .row {
+    border: 2px solid black;
 
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
+}
+*/
+
+/* Navigation */
+
+#navbar {
+    background-color: var(--primary-color);
+
 }
