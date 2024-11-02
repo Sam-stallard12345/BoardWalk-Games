@@ -26,9 +26,11 @@
     --light-hightlight: #7a9fc2;
 }
 
+/* General Style rules */
+
 body {
     font-family: var(--primary-font);
-
+    
 }
 
 h1,
@@ -55,4 +57,13 @@ h3 {
     justify-content: center;
     align-items: center;
     text-align: left;
+}
+
+/* grid visualisation CSS for testing */
+
+
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }
