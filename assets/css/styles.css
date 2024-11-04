@@ -92,10 +92,7 @@ section {
     font-family: var(--secondary-font)
 }
 
-#Contact {
-    background-color: var(--primary-color);
-    color: white;
-}
+
 
 /* Services */
 
@@ -110,6 +107,42 @@ section {
 
 #Services .card {
    margin-bottom: 1.5rem; 
+}
+
+/* Footer */
+
+#Contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 5px;
+}
+
+#Contact h2 {
+    color: white;
+}
+
+#Contact .sub-heading-color {
+    color: var(--light-hightlight);
+}
+
+#Contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#Contact .social-links i {
+    color: var(--light-hightlight);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#Contact .social-links i:hover {
+    color: var(--secondary-color);
+}
+
+#Contact .table-dark * {
+    background-color: transparent;
 }
 
 /* Media Queries */
