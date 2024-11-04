@@ -40,6 +40,15 @@ h3 {
     color: var(--primary-color);
 }
 
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
 section {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -86,4 +95,56 @@ section {
 #Contact {
     background-color: var(--primary-color);
     color: white;
+}
+
+/* Services */
+
+
+
+#Services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+
+}
+
+#Services .card {
+   margin-bottom: 1.5rem; 
+}
+
+/* Media Queries */
+/* For Medium Screen Sixes */
+@media screen and (min-width: 768px) {
+    /* Ensuring all services are the same height */
+    #Services .vard-body {
+
+        min-height: 191px;
+    }
+}
+
+/* For Large Screen Sixes */
+@media screen and (min-width: 992px) {
+    /* Ensuring all services are the same height */
+    #Services .vard-body {
+
+        min-height: auto;
+    }
+}
+
+/* For XL Screen Sixes */
+@media screen and (min-width: 1200px) {
+    /* Ensuring all services are the same height */
+    #Services .vard-body {
+
+        min-height: 220px;
+    }
+}
+
+/* For XXL Screen Sixes */
+@media screen and (min-width: 1400px) {
+    /* Ensuring all services are the same height */
+    #Services .vard-body {
+
+        min-height: 195px;
+    }
 }
