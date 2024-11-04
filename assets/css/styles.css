@@ -40,25 +40,16 @@ h3 {
     color: var(--primary-color);
 }
 
-
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
 
 
-.icon1 {
-    height: 30px;
-    width: 30px;
-    color: white;
-}
-
-#about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-}
 
 /* grid visualisation CSS for testing */
 
@@ -73,7 +64,26 @@ h3 {
 
 /* Navigation */
 
+.icon1 {
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+
+
 #navbar {
     background-color: var(--primary-color);
 
+}
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font)
+}
+
+#Contact {
+    background-color: var(--primary-color);
+    color: white;
 }
