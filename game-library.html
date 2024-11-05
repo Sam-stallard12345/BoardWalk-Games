@@ -19,7 +19,7 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container-fluid ps-4">
           
             <a class="navbar-brand" href="#"><img src="assets/images/logo-sm-white.png" alt="Main Icon" class="icon1"></a>
@@ -30,7 +30,8 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link" href="index.html">Home</a><hr>
-                    <a class="nav-link" href="#Events">Events</a><hr>
+                    <a class="nav-link" href="index.html#Services">Services</a><hr>
+                    <a class="nav-link" href="index.html#events-list">Events</a><hr>
                     <a class="nav-link active" aria-current="page" href="game-library.html">Games</a><hr>
                     <a class="nav-link" href="#Contact">Contact</a>
                     <a class="btn custom-button-filled ms-lg-3" href="booking.html" role="button">Book Now</a>
@@ -41,7 +42,7 @@
     </nav>
 
     <!--Header-->
-    <header id="header" class="container">
+    <header id="header" class="container pt-5">
         <section id="about" class="container section">
           <div class="row">
             <div class="col-12 col-xl-6 text-center text-xl-start">
@@ -174,6 +175,7 @@
                               <p class="card-text">Featuring classic Monopoly gameplay, this favourite family board game is all about buying, selling, and trading properties to win.</p>
                           </div>
                           
+
                           <ul class="list-group list-group-flush">
                               <li class="list-group-item"><em>Number of players: </em>2-6</li>
                               <li class="list-group-item"><em>Ages: </em>8+</li>
@@ -221,20 +223,20 @@
                   <div class="row mb-2">
                     <div class="col-12 col-xl-4">
                       <label for="f-name" class="form-label">Full Name</label>
-                      <input type="text" id="f-name" name="f-name" width="100%">
+                      <input type="text" id="f-name" name="f-name" width="100%" required>
                     </div>
                     <div class="col-12 col-xl-4">
                       <label for="phone-number" class="form-label">Phone Number</label>
-                      <input type="number" id="phone-number" name="phone-number">
+                      <input type="number" id="phone-number" name="phone-number" required>
                     </div>
                     <div class="col-12 col-xl-4">
                       <label for="email" class="form-label">Email Address</label>
-                      <input type="email" id="email" name="email">
+                      <input type="email" id="email" name="email" required>
                     </div>  
                   </div>
                   <div class="row align-items-center">
                     <div class="col-12 col-xl-8">
-                      <select class="form-select" aria-label="Default select example">
+                      <select class="form-select" aria-label="Default select example" required>
                         <option selected>Select Game</option>
                         <option value="1">Galaxy Pioneers</option>
                         <option value="2">Mystic Woods</option>
@@ -248,7 +250,7 @@
                     </div>
                     <div class="col-12 col-xl-4">
                       <label for="dateRequest" class="form-label">Request a Date</label>
-                      <input type="date" id="dateRequest" name="dateRequest" class="form-control">
+                      <input type="date" id="dateRequest" name="dateRequest" class="form-control" required>
                     </div>
                     <div class="justify-content-end mt-auto">
                       <button class="custom-button-empty" action="success.html" >Book Now</button>
@@ -328,11 +330,13 @@
               </div>
               <div id="row justify-content-center">
                 <p>Sign Up for Our Newsletter</p>
-                <label for="name">Name</label>
-                <input type="text" id="name">
-                <label for="email">Email</label>
-                <input type="email" id="email">
-                <button type="submit"></button>
+                <form action="success.html">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" class="form-control" required>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" class="form-control" required>
+                  <button type="submit">Sign Up</button>
+              </form>
               </div>
           </div>
         </div>  
