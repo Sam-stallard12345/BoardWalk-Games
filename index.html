@@ -24,13 +24,13 @@
                 </button>
               
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
+                <div class="navbar-nav ms-auto me-3">
                   <a class="nav-link active" aria-current="page" href="#">Home</a><hr>
                   <a class="nav-link" href="#Services">Services</a><hr>
-                  <a class="nav-link" href="#Events">Events</a><hr>
+                  <a class="nav-link" href="#events-list">Events</a><hr>
                   <a class="nav-link" href="game-library.html">Games</a><hr>
                   <a class="nav-link" href="#Contact">Contact</a>
-                  <a class="btn btn-primary" href="booking.html" role="button">Book Now</a>
+                  <a class="btn custom-button-filled ms-lg-3" href="booking.html" role="button">Book Now</a>
            
                 </div>
               </div>
@@ -44,7 +44,7 @@
                 <h1 class="display-3">Boardwalk Games</h1>
                 <p class="lead display-6 sub-heading-color">Your next adventure is waiting!</p>     
                 <p class="my-4">Welcome to Boardwalk Games, Your Ultimate Gaming Getaway! Escape into the world of board games and café delights. Whether you're a casual gamer seeking a cosy nook to unwind, a board game enthusiast ready for your next challenge, or a student gamer looking for a fun, affordable hangout, we've got you covered.</p>
-                <a class="btn btn-primary mb-4" href="booking.html" role="button">Book Now</a>
+                <a class="btn custom-button-empty mb-4" href="booking.html" role="button">Book Now</a>
             </div>
             <div id="carouselExampleAutoplaying" class="carousel slide col-12 col-xl-6" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -93,7 +93,7 @@
                   <div class="card-body">
                     <h3 class="card-title sub-heading-color">Play in our cafe</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn custom-button-filled">Go somewhere</a>
                   </div>
                   <div class="card-footer">
                     <p class="mb-0">$7 per person</p>
@@ -106,7 +106,7 @@
                   <div class="card-body">
                     <h3 class="card-title sub-heading-color">Game Library</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn custom-button-filled">Go somewhere</a>
                   </div>
                   <div class="card-footer">
                     <p class="mb-0">See Prices In Store</p>
@@ -119,7 +119,7 @@
                   <div class="card-body">
                     <h3 class="card-title sub-heading-color">Events</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn custom-button-filled">Go somewhere</a>
                   </div>
                   <div class="card-footer">
                     <p class="mb-0">$7 per person</p>
@@ -132,7 +132,7 @@
                   <div class="card-body">
                     <h3 class="card-title sub-heading-color">Card title</h3>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn custom-button-filled">Go somewhere</a>
                   </div>
                   <div class="card-footer">
                     <p class="mb-0">$7 per person</p>
@@ -142,17 +142,51 @@
           </div>
             <hr>    
         </section>  
-        <section class="section3 container-fluid">
-            <h1 class="text-center">Join Our Events</h1>
-            <div class="row m-4">
-                <div class="col-sm-12 col-lg-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo dignissimos sapiente architecto saepe quod eius autem delectus, placeat quo qui vel ipsa libero debitis!
+        <section id="events-list" class="section container-fluid">
+            <h2 class="text-center">Join Our Events</h2>
+            <div class="row m-4 align-items-center">
+                <div class="col-sm-12 col-lg-6 mb-2">
+                  <p>Whether you're delving into dungeons, reliving classic games, or competing in high-stakes tournaments, there's something for every gamer. Reservations are recommended to ensure your spot at the table. Student discounts are available, so bring your student ID and enjoy more gaming for less.</p>
+                  <p> Outside scheduled events, our shop remains open for regular play. Join us anytime to discover new games and meet fellow enthusiasts.</p>
                 </div>
                 <div class="col-sm-12 col-lg-6">
-                  <span class="border border-secondary">
-                    <hi class="text-center">Timetable of Events</hi>
-                  </span>
-
+                  <h3 class="text-center sub-heading-color">Timetable of Events</h3>
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Event</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Dungeons and Dragons</td>
+                        <td>Tuesdays</td>
+                        <td>8pm-11pm</td>
+                        <td>$25 for 6 sessions</td>
+                      </tr>
+                      <tr>
+                        <td>Retro Game Night</td>
+                        <td>Thursdays</td>
+                        <td>8pm-11pm</td>
+                        <td>$5 per person*</td>
+                      </tr>
+                      <tr>
+                        <td>Tournaments</td>
+                        <td>Last Sunday Of the Month</td>
+                        <td>12pm-7pm</td>
+                        <td>$10 per person</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="col-12 mb-2">
+                    <a href="booking.html" class="btn custom-button-filled">*Get 20% off with valid student ID</a>
+                  </div>
+                  <div class="col-12 text-center">
+                    <button class="btn custom-button-empty">Book Now</button>
+                  </div>
                 </div>
             </div>
             <hr>
@@ -242,7 +276,7 @@
               </table>
             </div>
             <div id="row justify-content-center">
-              <p>Sign Up for Out Newsletter</p>
+              <p>Sign Up for Our Newsletter</p>
               <label for="name">Name</label>
               <input type="text" id="name">
               <label for="email">Email</label>

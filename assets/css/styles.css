@@ -58,8 +58,32 @@ section {
     color: var(--highlight-color);
 }
 
+/* Buttons */
 
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
 
+.custom-button-filled:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-empty {
+    border: 2px solid var(--highlight-color);
+    
+    padding: 7px 25px;
+    color: var(--highlight-color);
+    transition-duration: 0.4s;
+    border-radius: 5%;
+}
+
+.custom-button-empty:hover {
+    background-color: var(--highlight-color);
+    color: white;
+}
 /* grid visualisation CSS for testing */
 
 /* .row {
@@ -96,8 +120,6 @@ section {
 
 /* Services */
 
-
-
 #Services .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
@@ -108,6 +130,34 @@ section {
 #Services .card {
    margin-bottom: 1.5rem; 
 }
+
+/* Events */
+
+#events-list .table {
+    background-color: transparent;
+}
+
+#events-list table td:hover {
+    background-color: var(--highlight-color);
+}
+
+/* Game Library */
+
+/* New games */
+#new-games .card {
+    min-height: 450px;
+}
+
+/* Favourite games */
+#fav-games .card {
+    min-height: 475px;
+}
+
+/* Reserve Form */
+#reserve form input {
+    width: 100%;
+}
+
 
 /* Footer */
 
@@ -153,7 +203,8 @@ section {
 
         min-height: 191px;
     }
-}
+
+    
 
 /* For Large Screen Sixes */
 @media screen and (min-width: 992px) {
