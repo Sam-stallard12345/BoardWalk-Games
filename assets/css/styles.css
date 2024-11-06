@@ -1,18 +1,11 @@
-/* 
-    #3a2620
-    #aa9581 - Beaver
-    #416a8e - Lapis Lazuli
-    #7a9fc2 - Air superiority blue
-    #ffffff - white
-    #000000 - black
-*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 * {
     padding: 0%;
     margin: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /* CSS Variables */
@@ -70,14 +63,16 @@ section {
 .custom-button-filled:hover {
     background-color: var(--secondary-color);
     color: white;
+    padding: 7px 25px;
 }
 
 .custom-button-empty {
     border: 2px solid var(--highlight-color);
-    
     padding: 7px 25px;
     color: var(--highlight-color);
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+         -o-transition-duration: 0.4s;
+            transition-duration: 0.4s;
     border-radius: 5%;
 }
 
@@ -85,16 +80,7 @@ section {
     background-color: var(--highlight-color);
     color: white;
 }
-/* grid visualisation CSS for testing */
 
-/* .row {
-    border: 2px solid black;
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-*/
 
 /* Navigation */
 
@@ -185,6 +171,8 @@ section {
 #Contact .social-links i {
     color: var(--light-hightlight);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -200,9 +188,9 @@ section {
 /* For Medium Screen Sixes */
 @media screen and (min-width: 768px) {
     /* Ensuring all services are the same height */
-    #Services .vard-body {
+    #Services .card-body {
 
-        min-height: 191px;
+        min-height: 260px;
     }
 
     
@@ -210,26 +198,26 @@ section {
 /* For Large Screen Sixes */
 @media screen and (min-width: 992px) {
     /* Ensuring all services are the same height */
-    #Services .vard-body {
+    #Services .card-body {
 
-        min-height: auto;
+        min-height: 230px;
     }
 }
 
 /* For XL Screen Sixes */
 @media screen and (min-width: 1200px) {
     /* Ensuring all services are the same height */
-    #Services .vard-body {
+    #Services .card-body {
 
-        min-height: 220px;
+        min-height: 295px;
     }
 }
 
 /* For XXL Screen Sixes */
 @media screen and (min-width: 1400px) {
     /* Ensuring all services are the same height */
-    #Services .vard-body {
+    #Services .card-body {
 
-        min-height: 195px;
+        min-height: 275px;
     }
 }}
